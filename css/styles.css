@@ -145,3 +145,15 @@ h2 {
     padding: 20px;
     margin-top: 40px;
 }
+
+@media (max-width: 450px) {
+    .image-grid {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        gap: 12px;
+        font-size: 14px;
+    }
+}
+
